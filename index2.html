@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form method="post" action="/process">
+    <p>Name: <input type="text" name="username" required> </p>
+    <p>Email: <input type="Email" name="email" required> </p>
+    <p>Website: <input type="url" name="website" required> </p>
+    <p>Age: <input type="number" name="age" required> </p>
+    <p><input type="hidden" name="userID" value="232" required></p>
+    <p>
+      Fave Baldy:
+      <select name="baldies">
+        <option value="mikee">Mikee</option>
+        <option value="jezzy">Jezzy</option>
+        <option value="owinoo">Owinoo</option>
+      </select>
+    </p>
+
+    <button type="submit">Save Data</button>
+  </form>
+  <script src="script.js"></script>
+
+</body>
+
+</html>
